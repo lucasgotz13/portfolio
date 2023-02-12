@@ -65,7 +65,7 @@ function Hero() {
                     <Spacer />
                     <Box boxSize="md">
                         <Image
-                            src="../src/assets/WhatsApp Image 2023-01-25 at 5.03.06 PM.jpeg"
+                            src="../assets/WhatsApp Image 2023-01-25 at 5.03.06 PM.jpeg"
                             boxSize={{
                                 base: "100px",
                                 sm: "200px",

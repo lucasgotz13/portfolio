@@ -56,7 +56,7 @@ function Projects() {
                             >
                                 <CardBody>
                                     <Image
-                                        src="../src/assets/E-Commerce.png"
+                                        src="../assets/E-Commerce.png"
                                         alt="E-Commerce"
                                     />
                                     <Center>
@@ -128,79 +128,7 @@ function Projects() {
                             >
                                 <CardBody>
                                     <Image
-                                        src="../src/assets/E-Commerce.png"
-                                        alt="E-Commerce"
-                                    />
-                                    <Center>
-                                        <Stack mt={4} color="white">
-                                            <Text
-                                                fontFamily="Poppins"
-                                                fontSize={20}
-                                                as="b"
-                                                align="center"
-                                            >
-                                                E-Commerce
-                                            </Text>
-                                            <Text
-                                                fontFamily="Poppins"
-                                                align="center"
-                                            >
-                                                HTML - CSS - JS
-                                            </Text>
-                                            <Center>
-                                                <HStack gap={2}>
-                                                    <Tooltip
-                                                        label="Link to repository"
-                                                        openDelay={200}
-                                                    >
-                                                        <Link
-                                                            href="https://github.com/lucasgotz13/E-Commerce-CH"
-                                                            target="_blank"
-                                                            _hover={{
-                                                                color: "#00ffcc",
-                                                                transition:
-                                                                    "all 0.5s ease",
-                                                            }}
-                                                        >
-                                                            <FaGithub
-                                                                size={24}
-                                                            ></FaGithub>
-                                                        </Link>
-                                                    </Tooltip>
-                                                    <Tooltip
-                                                        label="Link to demo"
-                                                        openDelay={200}
-                                                    >
-                                                        <Link
-                                                            href="https://lucasgotz13.github.io/E-Commerce-CH"
-                                                            target="_blank"
-                                                            _hover={{
-                                                                color: "#00ffcc",
-                                                                transition:
-                                                                    "all 0.5 ease",
-                                                            }}
-                                                        >
-                                                            <FaCode
-                                                                size={24}
-                                                            ></FaCode>
-                                                        </Link>
-                                                    </Tooltip>
-                                                </HStack>
-                                            </Center>
-                                        </Stack>
-                                    </Center>
-                                </CardBody>
-                            </Card>
-                        </GridItem>
-                        <GridItem w="100%">
-                            <Card
-                                w={["sm"]}
-                                bg="primary.600"
-                                data-aos="fade-down"
-                            >
-                                <CardBody>
-                                    <Image
-                                        src="../src/assets/E-Commerce.png"
+                                        src="../assets/E-Commerce.png"
                                         alt="E-Commerce"
                                     />
                                     <Center>
@@ -272,7 +200,79 @@ function Projects() {
                             >
                                 <CardBody>
                                     <Image
-                                        src="../src/assets/E-Commerce.png"
+                                        src="../assets/E-Commerce.png"
+                                        alt="E-Commerce"
+                                    />
+                                    <Center>
+                                        <Stack mt={4} color="white">
+                                            <Text
+                                                fontFamily="Poppins"
+                                                fontSize={20}
+                                                as="b"
+                                                align="center"
+                                            >
+                                                E-Commerce
+                                            </Text>
+                                            <Text
+                                                fontFamily="Poppins"
+                                                align="center"
+                                            >
+                                                HTML - CSS - JS
+                                            </Text>
+                                            <Center>
+                                                <HStack gap={2}>
+                                                    <Tooltip
+                                                        label="Link to repository"
+                                                        openDelay={200}
+                                                    >
+                                                        <Link
+                                                            href="https://github.com/lucasgotz13/E-Commerce-CH"
+                                                            target="_blank"
+                                                            _hover={{
+                                                                color: "#00ffcc",
+                                                                transition:
+                                                                    "all 0.5s ease",
+                                                            }}
+                                                        >
+                                                            <FaGithub
+                                                                size={24}
+                                                            ></FaGithub>
+                                                        </Link>
+                                                    </Tooltip>
+                                                    <Tooltip
+                                                        label="Link to demo"
+                                                        openDelay={200}
+                                                    >
+                                                        <Link
+                                                            href="https://lucasgotz13.github.io/E-Commerce-CH"
+                                                            target="_blank"
+                                                            _hover={{
+                                                                color: "#00ffcc",
+                                                                transition:
+                                                                    "all 0.5 ease",
+                                                            }}
+                                                        >
+                                                            <FaCode
+                                                                size={24}
+                                                            ></FaCode>
+                                                        </Link>
+                                                    </Tooltip>
+                                                </HStack>
+                                            </Center>
+                                        </Stack>
+                                    </Center>
+                                </CardBody>
+                            </Card>
+                        </GridItem>
+                        <GridItem w="100%">
+                            <Card
+                                w={["sm"]}
+                                bg="primary.600"
+                                data-aos="fade-down"
+                            >
+                                <CardBody>
+                                    <Image
+                                        src="../assets/E-Commerce.png"
                                         alt="E-Commerce"
                                     />
                                     <Center>

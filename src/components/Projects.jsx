@@ -56,8 +56,8 @@ function Projects() {
                             >
                                 <CardBody>
                                     <Image
-                                        src="../assets/E-Commerce.png"
-                                        alt="E-Commerce"
+                                        src="../assets/portfolio-thumbnail.png"
+                                        alt="Portfolio"
                                     />
                                     <Center>
                                         <Stack mt={4} color="white">
@@ -67,13 +67,13 @@ function Projects() {
                                                 as="b"
                                                 align="center"
                                             >
-                                                E-Commerce
+                                                Portfolio
                                             </Text>
                                             <Text
                                                 fontFamily="Poppins"
                                                 align="center"
                                             >
-                                                HTML - CSS - JS
+                                                React - Chakra UI - TailwindCSS
                                             </Text>
                                             <Center>
                                                 <HStack gap={2}>
@@ -82,7 +82,7 @@ function Projects() {
                                                         openDelay={200}
                                                     >
                                                         <Link
-                                                            href="https://github.com/lucasgotz13/E-Commerce-CH"
+                                                            href="https://github.com/lucasgotz13/portfolio"
                                                             target="_blank"
                                                             _hover={{
                                                                 color: "#00ffcc",

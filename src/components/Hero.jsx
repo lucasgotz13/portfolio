@@ -10,11 +10,9 @@ import {
     Center,
     Button,
 } from "@chakra-ui/react";
-import Aos from "aos";
 import {
     FaBootstrap,
     FaCss3,
-    FaFigma,
     FaGitAlt,
     FaGithub,
     FaHtml5,
@@ -23,7 +21,7 @@ import {
     FaReact,
     FaSass,
 } from "react-icons/fa";
-import { SiNotion, SiTailwindcss } from "react-icons/si";
+import { SiNotion, SiTailwindcss, SiChakraui } from "react-icons/si";
 function Hero() {
     return (
         <>
@@ -205,6 +203,19 @@ function Hero() {
                                     xl: 20,
                                 }}
                                 color="#563d7c"
+                            ></Icon>
+                        </Box>
+                        <Box>
+                            <Icon
+                                as={SiChakraui}
+                                boxSize={{
+                                    base: 10,
+                                    sm: 10,
+                                    md: 20,
+                                    lg: 20,
+                                    xl: 20,
+                                }}
+                                color="#41c7bf"
                             ></Icon>
                         </Box>
                     </HStack>

@@ -50,7 +50,7 @@ function Projects() {
                     >
                         <GridItem w="100%">
                             <Card
-                                w={["sm"]}
+                                w={["md"]}
                                 bg="primary.600"
                                 data-aos="fade-down"
                             >
@@ -58,6 +58,7 @@ function Projects() {
                                     <Image
                                         src="../assets/portfolio-thumbnail.png"
                                         alt="Portfolio"
+                                        h={"300"}
                                     />
                                     <Center>
                                         <Stack mt={4} color="white">
@@ -73,7 +74,7 @@ function Projects() {
                                                 fontFamily="Poppins"
                                                 align="center"
                                             >
-                                                React - Chakra UI - TailwindCSS
+                                                React | Chakra UI | TailwindCSS
                                             </Text>
                                             <Center>
                                                 <HStack gap={2}>
@@ -122,7 +123,7 @@ function Projects() {
                         </GridItem>
                         <GridItem w="100%">
                             <Card
-                                w={["sm"]}
+                                w={["md"]}
                                 bg="primary.600"
                                 data-aos="fade-down"
                             >
@@ -130,6 +131,7 @@ function Projects() {
                                     <Image
                                         src="../assets/E-Commerce.png"
                                         alt="E-Commerce"
+                                        h={300}
                                     />
                                     <Center>
                                         <Stack mt={4} color="white">
@@ -145,7 +147,7 @@ function Projects() {
                                                 fontFamily="Poppins"
                                                 align="center"
                                             >
-                                                HTML - CSS - JS
+                                                HTML | CSS | JS
                                             </Text>
                                             <Center>
                                                 <HStack gap={2}>
@@ -194,14 +196,15 @@ function Projects() {
                         </GridItem>
                         <GridItem w="100%">
                             <Card
-                                w={["sm"]}
+                                w={["md"]}
                                 bg="primary.600"
                                 data-aos="fade-down"
                             >
                                 <CardBody>
                                     <Image
-                                        src="../assets/E-Commerce.png"
+                                        src="../assets/CoolGamers2.png"
                                         alt="E-Commerce"
+                                        h={300}
                                     />
                                     <Center>
                                         <Stack mt={4} color="white">
@@ -211,13 +214,14 @@ function Projects() {
                                                 as="b"
                                                 align="center"
                                             >
-                                                E-Commerce
+                                                CoolGamers
                                             </Text>
                                             <Text
                                                 fontFamily="Poppins"
                                                 align="center"
                                             >
-                                                HTML - CSS - JS
+                                                React.js | TailwindCSS | Chakra
+                                                UI | Firebase
                                             </Text>
                                             <Center>
                                                 <HStack gap={2}>
@@ -226,7 +230,7 @@ function Projects() {
                                                         openDelay={200}
                                                     >
                                                         <Link
-                                                            href="https://github.com/lucasgotz13/E-Commerce-CH"
+                                                            href="https://github.com/lucasgotz13/E-Commerce-CoolGamers-Gotz"
                                                             target="_blank"
                                                             _hover={{
                                                                 color: "#00ffcc",
@@ -244,7 +248,7 @@ function Projects() {
                                                         openDelay={200}
                                                     >
                                                         <Link
-                                                            href="https://lucasgotz13.github.io/E-Commerce-CH"
+                                                            href="https://e-commerce-cool-gamers-gotz.vercel.app/"
                                                             target="_blank"
                                                             _hover={{
                                                                 color: "#00ffcc",
@@ -266,7 +270,7 @@ function Projects() {
                         </GridItem>
                         <GridItem w="100%">
                             <Card
-                                w={["sm"]}
+                                w={["md"]}
                                 bg="primary.600"
                                 data-aos="fade-down"
                             >
@@ -274,6 +278,7 @@ function Projects() {
                                     <Image
                                         src="../assets/E-Commerce.png"
                                         alt="E-Commerce"
+                                        h={300}
                                     />
                                     <Center>
                                         <Stack mt={4} color="white">
@@ -289,7 +294,7 @@ function Projects() {
                                                 fontFamily="Poppins"
                                                 align="center"
                                             >
-                                                HTML - CSS - JS
+                                                HTML | CSS | JS
                                             </Text>
                                             <Center>
                                                 <HStack gap={2}>

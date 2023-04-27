@@ -4,28 +4,16 @@ import {
     Center,
     Flex,
     IconButton,
-    ListItem,
-    Spacer,
     Text,
     UnorderedList,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { FaHamburger } from "react-icons/fa";
 import "../App.css";
 
 function Navbar() {
     const [fix, setFix] = useState(false);
     const [display, setDisplay] = useState("none");
 
-    // function setFixed() {
-    //     if (window.scrollY >= 25) {
-    //         setFix(true);
-    //     } else {
-    //         setFix(false);
-    //     }
-    // }
-
-    // window.addEventListener("scroll", setFixed);
     return (
         <Center>
             <Box
@@ -44,28 +32,27 @@ function Navbar() {
                     Lucas Gotz
                 </Text>
                 <UnorderedList display={["none", "none", "flex", "flex"]}>
-                    <Flex align="center" justify="center">
-                        <Spacer />
+                    <Flex align="center" justify="center" gap={2}>
                         <a
-                            className="p-2 border-b-2 border-b-gray-600 hover:border-b-cyan-500 hover:cursor-pointer"
+                            className="p-2 border-b-2 border-b-gray-600 custom-underline"
                             href="#about-me"
                         >
                             About me
                         </a>
                         <a
-                            className="p-2  border-b-2 border-b-gray-600 hover:border-b-cyan-500 hover:cursor-pointer"
+                            className="p-2  border-b-2 border-b-gray-600 custom-underline"
                             href="#skills"
                         >
                             Skills
                         </a>
                         <a
-                            className="p-2  border-b-2 border-b-gray-600 hover:border-b-cyan-500 hover:cursor-pointer"
+                            className="p-2  border-b-2 border-b-gray-600 custom-underline"
                             href="#projects"
                         >
                             Projects
                         </a>
                         <a
-                            className="p-2  border-b-2 border-b-gray-600 hover:border-b-cyan-500 hover:cursor-pointer"
+                            className="p-2  border-b-2 border-b-gray-600 custom-underline"
                             href="#contact"
                         >
                             Contact

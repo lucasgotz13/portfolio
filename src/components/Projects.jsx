@@ -276,7 +276,7 @@ function Projects() {
                             >
                                 <CardBody>
                                     <Image
-                                        src="../assets/E-Commerce.png"
+                                        src="../assets/holiday-calculator.jpeg"
                                         alt="E-Commerce"
                                         h={300}
                                     />
@@ -288,13 +288,13 @@ function Projects() {
                                                 as="b"
                                                 align="center"
                                             >
-                                                E-Commerce
+                                                Holiday calculator
                                             </Text>
                                             <Text
                                                 fontFamily="Poppins"
                                                 align="center"
                                             >
-                                                HTML | CSS | JS
+                                                React | TailwindCSS | TypeScript
                                             </Text>
                                             <Center>
                                                 <HStack gap={2}>
@@ -303,7 +303,7 @@ function Projects() {
                                                         openDelay={200}
                                                     >
                                                         <Link
-                                                            href="https://github.com/lucasgotz13/E-Commerce-CH"
+                                                            href="https://github.com/lucasgotz13/Holiday-calculator"
                                                             target="_blank"
                                                             _hover={{
                                                                 color: "#00ffcc",
@@ -321,7 +321,7 @@ function Projects() {
                                                         openDelay={200}
                                                     >
                                                         <Link
-                                                            href="https://lucasgotz13.github.io/E-Commerce-CH"
+                                                            href="https://holiday-calculator.vercel.app/"
                                                             target="_blank"
                                                             _hover={{
                                                                 color: "#00ffcc",
